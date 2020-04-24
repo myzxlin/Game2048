@@ -1,0 +1,29 @@
+#box {
+    text-align: center;
+}
+#board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 328px;
+    height: 328px;
+    padding: 2px;
+    margin: 0 auto;
+    background: rgb(220, 220, 220);
+}
+.item {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: 1px solid rgb(220, 220, 220);
+    background: white;
+    font-size: 2em;
+    text-align: center;
+    line-height: 80px;
+    transition: background-color 0.5s;
+}
+#score {
+    padding: 10px;
+    font-size: 1.4em;
+    color: rgb(200, 200, 200);
+}
