@@ -168,7 +168,7 @@ function generate() {
 // 监听键盘上下左右事件
 document.onkeydown = function(event) {
     if (event.key == 'ArrowRight') move('right');
-    if (event.key == 'ArrowRLeft') move('left');
+    if (event.key == 'ArrowLeft') move('left');
     if (event.key == 'ArrowDown') move('down');
     if (event.key == 'ArrowUp') move('up');
 }
